@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "PKG-027",
+  "slug": "housewisper-crm",
+  "name": "sovereign-housewisper-crm",
+  "domain": "Real Estate Workflow Automation",
+  "version": "1.0.0",
+  "status": "PRODUCTION_READY",
+  "entrypoint": "src/core.py",
+  "cli_command": "sovereign-housewisper-crm",
+  "microservice_port": 8807,
+  "n8n_webhook_path": "housewisper-crm-trigger",
+  "n8n_workflow": "n8n/workflow.json",
+  "test_suite": "tests/test_solution.py",
+  "author": "Russell Alan Powers",
+  "license": "MIT"
+}
